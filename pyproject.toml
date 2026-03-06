@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tennis-project"
+version = "0.1.0"
+description = "Week 1 Google ADK agent service scaffold."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.116.0,<1.0.0",
+  "google-adk>=1.0.0",
+  "python-dotenv>=1.0.1,<2.0.0",
+  "uvicorn[standard]>=0.35.0,<1.0.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

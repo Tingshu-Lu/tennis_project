@@ -5,6 +5,11 @@
 .vscode/
 .idea/
 
+# Python
+.venv/
+__pycache__/
+*.pyc
+
 # Local environment files
 .env
 .env.*
